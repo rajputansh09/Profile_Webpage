@@ -1,0 +1,79 @@
+body {
+      background: #121212;
+      color: #e0d6b4;
+      font-family: 'Uncial Antiqua', cursive;
+      padding: 2rem;
+      line-height: 1.7;
+    }
+
+    h1, h2, h3 {
+      color: #f5e6ca;
+      border-bottom: 2px solid #d4af37;
+      padding-bottom: 0.3rem;
+    }
+
+    a {
+      color: #d4af37;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+.scroll-link {
+      background: #1e1e1e;
+      padding: 1rem;
+      display: inline-block;
+      margin-top: 1rem;
+      border: 1px solid #d4af37;
+    }
+
+
+.Me {
+    border-radius: 100%;
+    }
+
+
+.Dragon {
+    border-radius: 5%;
+    }
+
+.Skills {
+    border-radius: 5%;
+}
+body {
+    letter-spacing: 1.5px;
+    word-spacing: 5px;
+    line-height: 2;
+  }
+
+
+
+
+body {
+  background: linear-gradient(135deg, #0f0d0d, #2d1b1b, #4b1f1f, #5a3e36);
+  background-size: 200% 200%;
+  animation: dragon-shadow 8s ease-in-out infinite;
+  color: #e0d8c3; /* aged parchment */
+  font-family: 'Uncial Antiqua', serif;
+  padding: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes dragon-shadow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
